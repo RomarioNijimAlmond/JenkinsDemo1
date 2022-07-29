@@ -1,0 +1,32 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testInOneBrowser": "npx playwright test --workers1 --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.23.4",
+    "@types/node": "^18.0.6",
+    "allure-commandline": "^2.18.1",
+    "allure-playwright": "^2.0.0-beta.18",
+    "playwright": "^1.23.4"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "api": "^4.5.1",
+    "aws-sdk": "^2.1184.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.1",
+    "each-async": "^2.0.0",
+    "faker": "^5.5.3",
+    "indent-string": "^5.0.0",
+    "module-name": "0.0.1-security",
+    "playwright-qase-reporter": "^1.2.0-alpha.3"
+  }
+}
