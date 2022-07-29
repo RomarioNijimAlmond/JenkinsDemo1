@@ -20,7 +20,7 @@ test.describe('Login test to almond QMS', async() => {
     })
 
 
-    test(qase([13],'Create new Doc'), async({page}) => {
+    test(qase([13,14,15],'Create new Doc'), async({page}) => {
         await test.step('go to almond URL', async() => {
             await basePage.goToUrl(ApplicationUrl.ALMOND_QMS_TEST);
         })
